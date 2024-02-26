@@ -1,0 +1,351 @@
+// Home.scss
+
+.heading {
+  padding: 15px;
+  text-align: left;
+  width: 90%;
+  padding-left: 20px;
+  height: 2450px;
+}
+
+.p1 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.pp1 a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: rgb(228, 244, 244);
+  position: relative;
+}
+
+/* Adjust height for the last main-div */
+.last-main-div {
+  height: 300px;
+}
+
+/* Style for the card and its content inside main-div */
+.main-div .card2 {
+  width: 45%;
+  height: 30px;
+  background-color: #FF7724;
+  margin-top: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+
+.main-div img.img1 {
+  margin-left: 0;
+}
+
+.main-div .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.main-div .paragraph {
+  padding: 5px;
+  width: 100%;
+}
+
+.main-div .card1 {
+  width: 100%;
+  height: 118px;
+  background-color: aqua;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.main-div .outside-button {
+  position: absolute;
+  bottom: 10px;
+  left: 48%;
+  width: 70%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #4f15ef;
+  border: none;
+  color: rgb(247, 243, 243);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.main-div .highlight {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-div .star {
+  margin-top: -10px;
+  color: yellow;
+}
+
+.main-div .card22 {
+  width: 45%;
+  height: 30px;
+  margin-top: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+
+/* Styles for the div2 and divv inside the paragraph */
+.div2 {
+  height: 120px;
+  width: 350px;
+  background-color: beige;
+  border-radius: 15px;
+  padding: 6px;
+}
+
+.divv {
+  height: 25px;
+  width: 30px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  color: #4f15ef;
+}
+
+.para1 {
+  margin-left: 40px;
+  margin-top: -25px;
+}
+
+.main-div .card123 {
+  width: 20%;
+  height: 118px;
+  background-color: aqua;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-left: 80px;
+  margin-top: -330px;
+}
+
+/* Add media query for responsiveness if needed */
+@media screen and (max-width: 768px) {
+  .footer{
+   margin-top: 469%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    padding-left: 200px;
+  }
+ 
+
+  .p1 {
+    margin-left: 350px;
+  }
+
+  button {
+    padding: 10px 32px;
+  }
+
+  .main-div {
+    flex-direction: row;
+    height: 320px;
+  }
+
+  .main-div img.img1 {
+    margin-left: -120px;
+  }
+
+  .main-div .content {
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .main-div .paragraph {
+    width: 60%;
+  }
+
+  .main-div .card1 {
+    width: 135px;
+    margin-left: 80px;
+    margin-top: -200px;
+  }
+
+  .main-div .outside-button {
+    margin-left: 330px;
+    width: 20%;
+  }
+
+  .main-div .card2 {
+    width: 35%;
+    margin-top: -320px;
+  }
+
+  /* Reset height for responsiveness on larger screens */
+  .last-main-div {
+    height: auto;
+  }
+
+  /* Reset height for responsiveness on larger screens */
+  .last-main-div .content {
+    height: auto;
+    overflow-y: hidden;
+  }
+
+}
+
+
+
+/* Footer.scss */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 400px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Additional styling for the copyright section */
+.footer-section p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+#hj{
+  margin-left: -250px;
+}
+
+// Home.scss
+
+/* ... Your existing styles ... */
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 767px) {
+  .main-div .card123{
+    height: 100%;
+    margin-top: 10%;
+    width: 130%;
+  }
+  #hj{
+    margin-left: -21px;
+  }
+  .main-div .outside-button {
+    margin-left: 6px;
+    
+  }
+
+  .div2{
+    width: 73%;
+  }
+  .heading {
+    padding-left: 20px; /* Adjust as needed */
+  }
+
+  .p1 {
+    margin-left: 20px; /* Adjust as needed */
+  }
+
+  button {
+    padding: 10px 16px; /* Adjust as needed */
+  }
+
+  .main-div {
+    flex-direction: column;
+    height: auto;
+  }
+
+ 
+
+  .main-div .content {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .main-div .paragraph {
+    width: 100%; /* Adjust as needed */
+  }
+
+  .main-div .card1 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+    height: 150px;
+  }
+
+  .main-div .outside-button {
+    margin-left: 6px;
+    width: 100%;
+  }
+
+  .main-div .card2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .last-main-div {
+    height: auto;
+  }
+
+  .last-main-div .content {
+    height: auto;
+    overflow-y: hidden;
+  }
+}
+
+/* ... Your existing styles ... */

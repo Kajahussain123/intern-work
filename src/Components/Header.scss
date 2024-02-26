@@ -1,0 +1,61 @@
+/* Header.scss */
+
+.header {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .search-bar {
+    margin-left: 200px;
+    align-items: center;
+  
+    input[type="text"] {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+      padding-left: 30px; /* Adjust the padding to make space for the icon */
+    }
+
+    .fa-magnifying-glass {
+      position: absolute;
+      left: 230px; /* Adjust the left position to align the icon */
+      margin-top: 10px;
+    }
+  }
+
+  .nav-links {
+    font-size: 15px;
+    margin-left: auto;
+
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    .search-bar {
+      margin: 10px 0;
+    }
+
+    .nav-links {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    
+  }
+}
