@@ -1,4 +1,4 @@
-// Home.scss
+
 
 .heading {
   padding: 15px;
@@ -42,12 +42,10 @@ button {
   position: relative;
 }
 
-/* Adjust height for the last main-div */
 .last-main-div {
   height: 300px;
 }
 
-/* Style for the card and its content inside main-div */
 .main-div .card2 {
   width: 45%;
   height: 30px;
@@ -125,7 +123,6 @@ a {
   padding: 5px;
 }
 
-/* Styles for the div2 and divv inside the paragraph */
 .div2 {
   height: 120px;
   width: 350px;
@@ -158,7 +155,6 @@ a {
   margin-top: -330px;
 }
 
-/* Add media query for responsiveness if needed */
 @media screen and (max-width: 768px) {
   .footer{
    margin-top: 469%;
@@ -212,12 +208,10 @@ a {
     margin-top: -320px;
   }
 
-  /* Reset height for responsiveness on larger screens */
   .last-main-div {
     height: auto;
   }
 
-  /* Reset height for responsiveness on larger screens */
   .last-main-div .content {
     height: auto;
     overflow-y: hidden;
@@ -227,7 +221,6 @@ a {
 
 
 
-/* Footer.scss */
 
 .footer {
   display: flex;
@@ -262,7 +255,6 @@ a {
   color: white;
 }
 
-/* Additional styling for the copyright section */
 .footer-section p {
   margin-top: 20px;
   font-size: 12px;
@@ -271,11 +263,7 @@ a {
   margin-left: -250px;
 }
 
-// Home.scss
 
-/* ... Your existing styles ... */
-
-/* Add media query for responsiveness */
 @media screen and (max-width: 767px) {
   .main-div .card123{
     height: 100%;
@@ -294,15 +282,15 @@ a {
     width: 73%;
   }
   .heading {
-    padding-left: 20px; /* Adjust as needed */
+    padding-left: 20px; 
   }
 
   .p1 {
-    margin-left: 20px; /* Adjust as needed */
+    margin-left: 20px; 
   }
 
   button {
-    padding: 10px 16px; /* Adjust as needed */
+    padding: 10px 16px; 
   }
 
   .main-div {
@@ -318,7 +306,7 @@ a {
   }
 
   .main-div .paragraph {
-    width: 100%; /* Adjust as needed */
+    width: 100%; 
   }
 
   .main-div .card1 {
@@ -348,4 +336,3 @@ a {
   }
 }
 
-/* ... Your existing styles ... */

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss'; // Make sure to import your CSS file
+import './Header.scss'; 
 
 function Header() {
   return (
